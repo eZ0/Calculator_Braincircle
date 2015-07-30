@@ -9,9 +9,7 @@ This mechanical scheme will leads to 2 simple formulas to calculate the M and th
 User data entry:
 
 1. beam length, L,  (i.e. ranging from 18 - 30m)
-
 2. the q-load, q, (i.e. ranging from 6 šC 12 kN/m)
-
 3. profile depth, h (selection from 500mm or 625mm or750mm or 1000mm)
 
  
@@ -33,16 +31,21 @@ L = 20m
 q = 6.5 kN/m
 h= 500mm
  
-Calculation by app
+###### Calculation by app
 M = 325 kNm
 V= 65 kN
 The App should select and show: ¡°GLP option is GLP500/3 -200/10, weight: 45.6 kg/m¡±
  
 And the same procedure should be done on the provided hot rolled table based on above calculated M and V and the result should be the lightest hot rolled section.
+
 In this example the App should select and show: ¡°hot rolled option is IPE450, weight: 79.1 kg/m¡±
  
 Then the App should calculate the following percentage based on chosen beams:
+
 Weight of selected hot rolled in kg/m šC Weight of selected GLP Beam in kg/m  divided by the Weight of selected hot rolled
+
 In this example:
+
 (79.1 šC 45.6) / 79.1 = 42%
+
 Which should be shown as ¡°Weight saving percentage by using GLP is 42 %¡±
