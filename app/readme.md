@@ -3,11 +3,17 @@ However this would be complicated for the user and would probably lead to nonsen
 A better way is when the App calculates the internal forces itself by the use of a beam on 2 supports loaded with an uniform distributed load (q-load) only.
 The input from the user is now, beam length, q-load and profile depth.
 This mechanical scheme will leads to 2 simple formulas to calculate the M and the V. In this situation there will be no N.
-Example:
+
+###### Example 
+
 User data entry:
+
 1. beam length, L,  (i.e. ranging from 18 - 30m)
+
 2. the q-load, q, (i.e. ranging from 6 šC 12 kN/m)
+
 3. profile depth, h (selection from 500mm or 625mm or750mm or 1000mm)
+
  
 App calculates the M by using:  (1/8) * q * L^2
 App calculates the V by using: (1/2)* q *L
