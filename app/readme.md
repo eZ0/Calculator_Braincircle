@@ -20,13 +20,15 @@ App calculates the V by using: (1/2)* q *L
  
 Based on the M and V and h, the App should find the lightest beam (in weight: kg/m) in the provided GLP-table,
 which has
-[if !supportLists]1.       [endif]the specified h (profile depth) and
-[if !supportLists]2.       [endif]the M (table) value  ¡Ý  to calculated M and
-[if !supportLists]3.       [endif]the V (table) value ¡Ý to calculated V
-[if !supportLists]4.       [endif]choose the lightest beam among them and show the result
+
+1. the specified h (profile depth) and
+2. the M (table) value  ¡Ý  to calculated M and
+3. the V (table) value ¡Ý to calculated V
+4. choose the lightest beam among them and show the result
+
 If the chosen, L, q and h does not lead to a valid beam then display: ¡°No beam could be found, choose beam with bigger h¡±
- 
-Example:
+
+###### Example 
 L = 20m
 q = 6.5 kN/m
 h= 500mm
